@@ -1,0 +1,1 @@
+# safari-navigation-ui-scroll-gap
