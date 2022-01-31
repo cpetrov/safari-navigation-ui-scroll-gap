@@ -1,0 +1,40 @@
+<html lang="de">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="theme-color" content="#fafafa">
+  <script>
+  </script>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    #body-height-indicator {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(255, 0, 0, 0.5);
+    }
+    #content {
+      position: absolute;
+      height: 200%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    #button {
+      width: 100px;
+      height: 50px;
+      position: fixed;
+      margin-left: -50px;
+      left: 50%;
+      bottom: 0px;
+    }
+  </style>
+</head>
+<body>
+    <div id="body-height-indicator"></div>
+    <div id="content">
+      <button id="button" onclick="document.getElementById('content').style.height='50%'">Make unscrollable</button>
+    </div>
+</body>
+</html>
